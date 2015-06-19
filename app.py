@@ -26,4 +26,4 @@ def hello_world():
     '''.format(app_name, my_count, shared_count)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run('0.0.0.0', debug=True)
