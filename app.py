@@ -23,6 +23,7 @@ def hello_world():
     <p>Hello world! My name is {}!</p>
     <p>I have been seen <b>{}</b> times.</p>
     <p>My friends and I have been seen a total of <b>{}</b> times.</p>
+    <p>This is the master branch</p>
     '''.format(app_name, my_count, shared_count)
 
 if __name__ == '__main__':
